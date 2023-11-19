@@ -25,34 +25,295 @@ public class view_Gestion extends javax.swing.JFrame {
     private void initComponents() {
 
         background_Gestion = new javax.swing.JPanel();
+        panel_Gestion = new javax.swing.JPanel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenu10 = new javax.swing.JMenu();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenu3 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
+        jMenu5 = new javax.swing.JMenu();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem11 = new javax.swing.JMenuItem();
+        jMenuItem17 = new javax.swing.JMenuItem();
+        jMenu8 = new javax.swing.JMenu();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenu7 = new javax.swing.JMenu();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenu9 = new javax.swing.JMenu();
+        jMenuItem18 = new javax.swing.JMenuItem();
+        jMenu6 = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Gestion");
         setAutoRequestFocus(false);
         setEnabled(false);
+        setFocusCycleRoot(false);
         setFocusable(false);
         setFocusableWindowState(false);
-        setForeground(java.awt.Color.gray);
+        setForeground(new java.awt.Color(255, 255, 255));
         setUndecorated(true);
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         background_Gestion.setBackground(java.awt.Color.white);
         background_Gestion.setFocusable(false);
         background_Gestion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(background_Gestion, javax.swing.GroupLayout.DEFAULT_SIZE, 1135, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(background_Gestion, javax.swing.GroupLayout.DEFAULT_SIZE, 620, Short.MAX_VALUE)
-        );
+        panel_Gestion.setBackground(new java.awt.Color(255, 255, 255));
+        panel_Gestion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        panel_Gestion.setMaximumSize(new java.awt.Dimension(150, 50));
+        panel_Gestion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        background_Gestion.add(panel_Gestion, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 570));
+
+        getContentPane().add(background_Gestion, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1140, 630));
+
+        jMenuBar1.setBorder(null);
+        jMenuBar1.setBorderPainted(false);
+
+        jMenu2.setBorder(null);
+        jMenu2.setText("Usuario");
+        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu2.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu2.setMinimumSize(new java.awt.Dimension(130, 50));
+        jMenu2.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem3.setText("Nuevo Usuario");
+        jMenuItem3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu2.add(jMenuItem3);
+
+        jMenuItem4.setText("Gestionar Usuarios");
+        jMenuItem4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem4);
+
+        jMenuItem14.setText("Modificar Usuario");
+        jMenuItem14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu2.add(jMenuItem14);
+
+        jMenuItem15.setText("Eliminar Usuario");
+        jMenuItem15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem15.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu2.add(jMenuItem15);
+
+        jMenuBar1.add(jMenu2);
+
+        jMenu10.setBorder(null);
+        jMenu10.setText("Cliente");
+        jMenu10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu10.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenu10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        jMenuItem12.setText("Nuevo Cliente");
+        jMenuItem12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu10.add(jMenuItem12);
+
+        jMenuItem13.setText("Buscar Cliente");
+        jMenuItem13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem13.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu10.add(jMenuItem13);
+
+        jMenuBar1.add(jMenu10);
+
+        jMenu3.setBorder(null);
+        jMenu3.setText("Producto");
+        jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu3.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem1.setText("Nuevo Producto");
+        jMenuItem1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem1.setHideActionText(true);
+        jMenuItem1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.add(jMenuItem1);
+
+        jMenuItem5.setText("Gestion Producto");
+        jMenuItem5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem5.setHideActionText(true);
+        jMenuItem5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.add(jMenuItem5);
+
+        jMenuItem6.setText("Buscar Producto");
+        jMenuItem6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem6.setHideActionText(true);
+        jMenuItem6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.add(jMenuItem6);
+
+        jMenuItem16.setText("Eliminar Producto");
+        jMenuItem16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem16.setHideActionText(true);
+        jMenuItem16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.add(jMenuItem16);
+
+        jMenuBar1.add(jMenu3);
+
+        jMenu5.setBorder(null);
+        jMenu5.setText("Linea");
+        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu5.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu5.setMinimumSize(new java.awt.Dimension(140, 50));
+        jMenu5.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem10.setText("Nueva Linea");
+        jMenuItem10.setBorder(null);
+        jMenuItem10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenuItem10.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jMenu5.add(jMenuItem10);
+
+        jMenuItem11.setText("Gestión de Lineas");
+        jMenuItem11.setBorder(null);
+        jMenuItem11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem11.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenuItem11.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jMenu5.add(jMenuItem11);
+
+        jMenuItem17.setText("Eliminar Linea");
+        jMenuItem17.setBorder(null);
+        jMenuItem17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem17.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem17.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenuItem17.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jMenu5.add(jMenuItem17);
+
+        jMenuBar1.add(jMenu5);
+
+        jMenu8.setBorder(null);
+        jMenu8.setText("Proveedor");
+        jMenu8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu8.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu8.setMinimumSize(new java.awt.Dimension(70, 15));
+
+        jMenuItem7.setText("Nuevo proveedor");
+        jMenuItem7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem7.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        jMenu8.add(jMenuItem7);
+
+        jMenuBar1.add(jMenu8);
+
+        jMenu4.setBorder(null);
+        jMenu4.setText("Factura");
+        jMenu4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu4.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu4.setMaximumSize(new java.awt.Dimension(120, 32767));
+        jMenu4.setPreferredSize(new java.awt.Dimension(150, 40));
+
+        jMenuItem8.setText("Consutar Factura");
+        jMenuItem8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu4.add(jMenuItem8);
+
+        jMenuBar1.add(jMenu4);
+
+        jMenu7.setBorder(null);
+        jMenu7.setText("Historial");
+        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu7.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu7.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem9.setText("Ventas Cliente");
+        jMenuItem9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu7.add(jMenuItem9);
+
+        jMenuBar1.add(jMenu7);
+
+        jMenu9.setBorder(null);
+        jMenu9.setText("Reporte");
+        jMenu9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu9.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu9.setHideActionText(true);
+        jMenu9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu9.setMinimumSize(new java.awt.Dimension(60, 15));
+
+        jMenuItem18.setText("Generar Reporte");
+        jMenuItem18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem18.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu9.add(jMenuItem18);
+
+        jMenuBar1.add(jMenu9);
+
+        jMenu6.setBorder(null);
+        jMenu6.setText("Cerrar Sesión");
+        jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenu6.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
+        jMenu6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jMenu6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu6.setPreferredSize(new java.awt.Dimension(150, 50));
+
+        jMenuItem2.setText("Cerrar Sesión");
+        jMenu6.add(jMenuItem2);
+
+        jMenuBar1.add(jMenu6);
+
+        setJMenuBar(jMenuBar1);
+        jMenuBar1.getAccessibleContext().setAccessibleName("frferf");
+
+        getAccessibleContext().setAccessibleName("");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -91,5 +352,34 @@ public class view_Gestion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel background_Gestion;
+    private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
+    private javax.swing.JMenuItem jMenuItem18;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JPanel panel_Gestion;
     // End of variables declaration//GEN-END:variables
 }
