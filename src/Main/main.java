@@ -4,7 +4,7 @@
  */
 package Main;
 
-import view.login;
+import view.view_login;
 
 /**
  *
