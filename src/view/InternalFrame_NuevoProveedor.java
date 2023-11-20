@@ -26,113 +26,141 @@ public class InternalFrame_NuevoProveedor extends javax.swing.JInternalFrame {
 
         panel_backgrounf = new javax.swing.JPanel();
         panel_datos_Usuario = new javax.swing.JPanel();
-        Label_nombreUsuario = new javax.swing.JLabel();
+        Label_idProveedor = new javax.swing.JLabel();
         label_apellidoUsuario = new javax.swing.JLabel();
         label_documentoIdentidadUsuario = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
         label_rolUsuario = new javax.swing.JLabel();
         label_nombreUsuarioSistema = new javax.swing.JLabel();
         label_contraseñaUsuarioSistema = new javax.swing.JLabel();
-        txt_nombreUsuario = new javax.swing.JTextField();
-        txt_apellidoUsuario = new javax.swing.JTextField();
-        txt_documentoIdentidadUsuario = new javax.swing.JTextField();
+        txt_idProveedor = new javax.swing.JTextField();
+        txt_apellidoProveedor = new javax.swing.JTextField();
+        txt_nitProveedor = new javax.swing.JTextField();
         txt_nombreUsuarioSistema = new javax.swing.JTextField();
         txt_contraseñaUsuarioSistema = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        botton_guardarDatosProveedor = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        txt_direcionProveedor = new javax.swing.JTextField();
+        txt_productoSuministradoProveedor = new javax.swing.JTextField();
+        label_nomrbeProveedor = new javax.swing.JLabel();
+        txt_nomrbreProveedor = new javax.swing.JTextField();
 
         setClosable(true);
         setIconifiable(true);
-        setTitle("Nuevo Usuario");
+        setTitle("Nuevo Proveedor");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         panel_backgrounf.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Label_nombreUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        Label_nombreUsuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        Label_nombreUsuario.setText("Nombre");
+        Label_idProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        Label_idProveedor.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        Label_idProveedor.setText("ID Proveedor");
+        Label_idProveedor.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         label_apellidoUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         label_apellidoUsuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         label_apellidoUsuario.setText("Apellido");
+        label_apellidoUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         label_documentoIdentidadUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         label_documentoIdentidadUsuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        label_documentoIdentidadUsuario.setText("Documento Identidad");
-
-        jComboBox1.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Administrador", "Empleado" }));
-        jComboBox1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        label_documentoIdentidadUsuario.setText("NIT");
+        label_documentoIdentidadUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         label_rolUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         label_rolUsuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        label_rolUsuario.setText("Rol");
+        label_rolUsuario.setText("Dirección");
+        label_rolUsuario.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         label_nombreUsuarioSistema.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         label_nombreUsuarioSistema.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        label_nombreUsuarioSistema.setText("Nombre Usuario");
+        label_nombreUsuarioSistema.setText("Teléfono");
+        label_nombreUsuarioSistema.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         label_contraseñaUsuarioSistema.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         label_contraseñaUsuarioSistema.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        label_contraseñaUsuarioSistema.setText("Contraseña");
+        label_contraseñaUsuarioSistema.setText("Correo Electrónico");
+        label_contraseñaUsuarioSistema.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        txt_nombreUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        txt_idProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
 
-        txt_apellidoUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        txt_apellidoProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
 
-        txt_documentoIdentidadUsuario.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        txt_nitProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
 
         txt_nombreUsuarioSistema.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
 
         txt_contraseñaUsuarioSistema.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
 
-        jButton1.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton1.setText("Guardar");
+        botton_guardarDatosProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        botton_guardarDatosProveedor.setText("Guardar");
+
+        jLabel1.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        jLabel1.setText("Tipo de Producto Suministrado");
+        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        label_nomrbeProveedor.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        label_nomrbeProveedor.setText("Nombre");
+        label_nomrbeProveedor.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        txt_nomrbreProveedor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_nomrbreProveedorActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel_datos_UsuarioLayout = new javax.swing.GroupLayout(panel_datos_Usuario);
         panel_datos_Usuario.setLayout(panel_datos_UsuarioLayout);
         panel_datos_UsuarioLayout.setHorizontalGroup(
             panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel_datos_UsuarioLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_datos_UsuarioLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(label_rolUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(label_nombreUsuarioSistema, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(label_contraseñaUsuarioSistema, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(Label_nombreUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label_idProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label_apellidoUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label_documentoIdentidadUsuario))
-                .addGap(72, 72, 72)
+                    .addComponent(label_documentoIdentidadUsuario)
+                    .addComponent(jLabel1)
+                    .addComponent(label_nomrbeProveedor))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1)
+                    .addComponent(botton_guardarDatosProveedor)
                     .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txt_nombreUsuario)
-                        .addComponent(txt_apellidoUsuario)
-                        .addComponent(txt_documentoIdentidadUsuario)
+                        .addComponent(txt_idProveedor)
+                        .addComponent(txt_apellidoProveedor)
+                        .addComponent(txt_nitProveedor)
                         .addComponent(txt_nombreUsuarioSistema)
-                        .addComponent(txt_contraseñaUsuarioSistema, javax.swing.GroupLayout.DEFAULT_SIZE, 195, Short.MAX_VALUE)))
-                .addGap(119, 119, 119))
+                        .addComponent(txt_contraseñaUsuarioSistema)
+                        .addComponent(txt_direcionProveedor)
+                        .addComponent(txt_productoSuministradoProveedor)
+                        .addComponent(txt_nomrbreProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(60, 60, 60))
         );
         panel_datos_UsuarioLayout.setVerticalGroup(
             panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel_datos_UsuarioLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Label_nombreUsuario)
-                    .addComponent(txt_nombreUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(Label_idProveedor)
+                    .addComponent(txt_idProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_apellidoUsuario)
-                    .addComponent(txt_apellidoUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(15, 15, 15)
+                    .addComponent(txt_apellidoProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(label_apellidoUsuario))
+                .addGap(12, 12, 12)
+                .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(label_nomrbeProveedor)
+                    .addComponent(txt_nomrbreProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(label_documentoIdentidadUsuario)
-                    .addComponent(txt_documentoIdentidadUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_nitProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(15, 15, 15)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_rolUsuario)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_direcionProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_nombreUsuarioSistema)
@@ -141,34 +169,46 @@ public class InternalFrame_NuevoProveedor extends javax.swing.JInternalFrame {
                 .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_contraseñaUsuarioSistema)
                     .addComponent(txt_contraseñaUsuarioSistema, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(jButton1)
-                .addContainerGap(74, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addGroup(panel_datos_UsuarioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(txt_productoSuministradoProveedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(botton_guardarDatosProveedor)
+                .addContainerGap(22, Short.MAX_VALUE))
         );
 
-        panel_backgrounf.add(panel_datos_Usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 360));
+        panel_backgrounf.add(panel_datos_Usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 530, 360));
 
         getContentPane().add(panel_backgrounf, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 360));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txt_nomrbreProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nomrbreProveedorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_nomrbreProveedorActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Label_nombreUsuario;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel Label_idProveedor;
+    private javax.swing.JButton botton_guardarDatosProveedor;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel label_apellidoUsuario;
     private javax.swing.JLabel label_contraseñaUsuarioSistema;
     private javax.swing.JLabel label_documentoIdentidadUsuario;
     private javax.swing.JLabel label_nombreUsuarioSistema;
+    private javax.swing.JLabel label_nomrbeProveedor;
     private javax.swing.JLabel label_rolUsuario;
     private javax.swing.JPanel panel_backgrounf;
     private javax.swing.JPanel panel_datos_Usuario;
-    private javax.swing.JTextField txt_apellidoUsuario;
+    private javax.swing.JTextField txt_apellidoProveedor;
     private javax.swing.JTextField txt_contraseñaUsuarioSistema;
-    private javax.swing.JTextField txt_documentoIdentidadUsuario;
-    private javax.swing.JTextField txt_nombreUsuario;
+    private javax.swing.JTextField txt_direcionProveedor;
+    private javax.swing.JTextField txt_idProveedor;
+    private javax.swing.JTextField txt_nitProveedor;
     private javax.swing.JTextField txt_nombreUsuarioSistema;
+    private javax.swing.JTextField txt_nomrbreProveedor;
+    private javax.swing.JTextField txt_productoSuministradoProveedor;
     // End of variables declaration//GEN-END:variables
 }

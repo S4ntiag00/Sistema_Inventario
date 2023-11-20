@@ -44,7 +44,6 @@ public class view_Menu extends javax.swing.JFrame {
         jMenu5 = new javax.swing.JMenu();
         jMenuItem_nueva_Linea = new javax.swing.JMenuItem();
         jMenuItem11 = new javax.swing.JMenuItem();
-        jMenuItem_eliminar_linea = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
         jMenuItem_nuevo_proveedor = new javax.swing.JMenuItem();
         jMenuItem_gestinoar_proveedores = new javax.swing.JMenuItem();
@@ -200,19 +199,6 @@ public class view_Menu extends javax.swing.JFrame {
         jMenuItem11.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jMenu5.add(jMenuItem11);
 
-        jMenuItem_eliminar_linea.setText("Eliminar Linea");
-        jMenuItem_eliminar_linea.setBorder(null);
-        jMenuItem_eliminar_linea.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenuItem_eliminar_linea.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jMenuItem_eliminar_linea.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jMenuItem_eliminar_linea.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        jMenuItem_eliminar_linea.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem_eliminar_lineaActionPerformed(evt);
-            }
-        });
-        jMenu5.add(jMenuItem_eliminar_linea);
-
         jMenuBar1.add(jMenu5);
 
         jMenu8.setBorder(null);
@@ -350,10 +336,6 @@ public class view_Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem_nuevo_proveedorActionPerformed
 
-    private void jMenuItem_eliminar_lineaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem_eliminar_lineaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem_eliminar_lineaActionPerformed
-
     private void jMenuItem_gestionar_ventaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem_gestionar_ventaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem_gestionar_ventaActionPerformed
@@ -413,7 +395,6 @@ public class view_Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem_buscar_cliente;
     private javax.swing.JMenuItem jMenuItem_cerrar_sesion;
     private javax.swing.JMenuItem jMenuItem_eliminar_Producto;
-    private javax.swing.JMenuItem jMenuItem_eliminar_linea;
     private javax.swing.JMenuItem jMenuItem_eliminar_proveedor;
     private javax.swing.JMenuItem jMenuItem_gestinoar_proveedores;
     private javax.swing.JMenuItem jMenuItem_gestionar_venta;
