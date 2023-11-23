@@ -55,8 +55,6 @@ public class view_Menu extends javax.swing.JFrame {
         jMenuItem_reporte_proveedor = new javax.swing.JMenuItem();
         jMenuItem_reporte_producto = new javax.swing.JMenuItem();
         jMenuItem_reporte_venta = new javax.swing.JMenuItem();
-        jMenu7 = new javax.swing.JMenu();
-        jMenuItem_historial_ventas = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
         jMenuItem_cerrar_sesion = new javax.swing.JMenuItem();
 
@@ -284,22 +282,6 @@ public class view_Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu9);
 
-        jMenu7.setBorder(null);
-        jMenu7.setText("Historial");
-        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenu7.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
-        jMenu7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jMenu7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jMenu7.setPreferredSize(new java.awt.Dimension(150, 50));
-
-        jMenuItem_historial_ventas.setText("Ventas ");
-        jMenuItem_historial_ventas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenuItem_historial_ventas.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jMenuItem_historial_ventas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jMenu7.add(jMenuItem_historial_ventas);
-
-        jMenuBar1.add(jMenu7);
-
         jMenu6.setBorder(null);
         jMenu6.setText("Cerrar Sesión");
         jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -376,7 +358,6 @@ public class view_Menu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
-    private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
     private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
@@ -389,7 +370,6 @@ public class view_Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem_eliminar_proveedor;
     private javax.swing.JMenuItem jMenuItem_gestinoar_proveedores;
     private javax.swing.JMenuItem jMenuItem_gestionar_venta;
-    private javax.swing.JMenuItem jMenuItem_historial_ventas;
     private javax.swing.JMenuItem jMenuItem_nueva_Linea;
     private javax.swing.JMenuItem jMenuItem_nueva_venta;
     private javax.swing.JMenuItem jMenuItem_nuevo_Cliente;
