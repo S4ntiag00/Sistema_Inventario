@@ -38,9 +38,8 @@ public class view_Menu extends javax.swing.JFrame {
         jMenuItem_buscar_cliente = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem_nuevo_Producto = new javax.swing.JMenuItem();
-        jMenuItem_Gestion_Producto = new javax.swing.JMenuItem();
         jMenuItem_buscar_Producto = new javax.swing.JMenuItem();
-        jMenuItem_eliminar_Producto = new javax.swing.JMenuItem();
+        jMenuItem_Gestion_Producto = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         jMenuItem_nueva_Linea = new javax.swing.JMenuItem();
         jMenuItem11 = new javax.swing.JMenuItem();
@@ -151,13 +150,6 @@ public class view_Menu extends javax.swing.JFrame {
         jMenuItem_nuevo_Producto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jMenu3.add(jMenuItem_nuevo_Producto);
 
-        jMenuItem_Gestion_Producto.setText("Gestion Producto");
-        jMenuItem_Gestion_Producto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenuItem_Gestion_Producto.setHideActionText(true);
-        jMenuItem_Gestion_Producto.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jMenuItem_Gestion_Producto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jMenu3.add(jMenuItem_Gestion_Producto);
-
         jMenuItem_buscar_Producto.setText("Buscar Producto");
         jMenuItem_buscar_Producto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItem_buscar_Producto.setHideActionText(true);
@@ -165,12 +157,12 @@ public class view_Menu extends javax.swing.JFrame {
         jMenuItem_buscar_Producto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jMenu3.add(jMenuItem_buscar_Producto);
 
-        jMenuItem_eliminar_Producto.setText("Eliminar Producto");
-        jMenuItem_eliminar_Producto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jMenuItem_eliminar_Producto.setHideActionText(true);
-        jMenuItem_eliminar_Producto.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jMenuItem_eliminar_Producto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jMenu3.add(jMenuItem_eliminar_Producto);
+        jMenuItem_Gestion_Producto.setText("Gestion Producto");
+        jMenuItem_Gestion_Producto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jMenuItem_Gestion_Producto.setHideActionText(true);
+        jMenuItem_Gestion_Producto.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jMenuItem_Gestion_Producto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jMenu3.add(jMenuItem_Gestion_Producto);
 
         jMenuBar1.add(jMenu3);
 
@@ -394,7 +386,6 @@ public class view_Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem_buscar_Producto;
     private javax.swing.JMenuItem jMenuItem_buscar_cliente;
     private javax.swing.JMenuItem jMenuItem_cerrar_sesion;
-    private javax.swing.JMenuItem jMenuItem_eliminar_Producto;
     private javax.swing.JMenuItem jMenuItem_eliminar_proveedor;
     private javax.swing.JMenuItem jMenuItem_gestinoar_proveedores;
     private javax.swing.JMenuItem jMenuItem_gestionar_venta;

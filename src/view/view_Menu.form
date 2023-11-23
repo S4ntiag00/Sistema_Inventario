@@ -128,17 +128,6 @@
                 <Property name="horizontalTextPosition" type="int" value="0"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_Gestion_Producto">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Gestion Producto"/>
-                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                  <Color id="Hand Cursor"/>
-                </Property>
-                <Property name="hideActionText" type="boolean" value="true"/>
-                <Property name="horizontalAlignment" type="int" value="2"/>
-                <Property name="horizontalTextPosition" type="int" value="0"/>
-              </Properties>
-            </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_buscar_Producto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Buscar Producto"/>
@@ -150,9 +139,9 @@
                 <Property name="horizontalTextPosition" type="int" value="0"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_eliminar_Producto">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_Gestion_Producto">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Eliminar Producto"/>
+                <Property name="text" type="java.lang.String" value="Gestion Producto"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
                 </Property>
